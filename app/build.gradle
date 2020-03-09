@@ -10,6 +10,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "BASE_URL", "\"http://10.0.2.2:8080/qod/\"" //Replace IP address for hardware device.
+        buildConfigField "String", "CLIENT_ID", "\"\"264842930105-21qt12tssg9e7ot7209svmnk9l2b2rjd.apps.googleusercontent.com"
     }
     buildTypes {
         release {
